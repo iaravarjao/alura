@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Conversor de Moeda</title>
+    <script>
+        function conversorMoeda (converter){
+        var nome = document.getElementById("nome").value;
+        var converter = document.getElementById("converter").value;
+        var cotacaoDoDolar = 5.32;
+        var cotacaoCripto = 0.0000420453551655;
+
+        var valorEmReal = converter * cotacaoDoDolar;
+        var valorBitcoin = converter * cotacaoCripto;
+        valorEmReal = valorEmReal.toFixed(2);
+        valorBitcoin = valorBitcoin.toFixed(2);
+            
+        alert("Olá " + nome + ", este valor de: USD" + converter + " convertido em reais equivale a R$" + valorEmReal + " ou " + valorBitcoin + " bitcoins")
+        }    
+    </script>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src= "https://infinitycambio.com.br/wp-content/uploads/nota-d%C3%B3lar-modelo-intermedi%C3%A1rio-2.jpg" 
+            width= "200" alt="dólar americano" />
+        </figure>
+		<h1>Conversor de Dólar</h1>
+		<h2>
+			Digite seu nome e um valor em dólares para converter:
+		</h2>
+ 	<form>
+		<input type="text" id="nome" placeholder="Digite seu nome" /><br />
+		<input type="number" id="converter" placeholder="Digite o valor" /><br />
+		<button type="button" onclick="conversorMoeda()">Converter</button>
+		<button type="reset">Limpar</button><br />
+	</form>
+    <footer>
+        Projeto imersão dev_ Alura <br />
+        &copy; Jan/2023 - Iara Varjão Barbosa
+    </footer>
+</body>
+</html>
