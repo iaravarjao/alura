@@ -1,5 +1,7 @@
-# Imersão dev_ Alura Jan/23
+# projects in progress
 
-Projeto de conversor de moedas desenvolvido na imersão dev_ promovida pela Alura em jan/23.
+Imersão Alura dev - conversor de moedas
+
+Minicamp XP Programação básica -
 
 https://iaravarjao.github.io/alura/
