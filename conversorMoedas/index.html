@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conversor de Moeda</title>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img
+          src="https://infinitycambio.com.br/wp-content/uploads/nota-d%C3%B3lar-modelo-intermedi%C3%A1rio-2.jpg"
+          width="200"
+          alt="dólar americano"
+        />
+      </figure>
+      <h1>Conversor de Dólar</h1>
+    </header>
+    <h2>Digite seu nome e um valor em dólares para converter:</h2>
+    <form>
+      <div><input type="text" id="nome" placeholder="Digite seu nome" /></div>
+      <br />
+      <div>
+        <input type="number" id="converter" placeholder="Digite o valor" />
+      </div>
+      <br />
+      <button type="button" onclick="conversorMoeda()">Converter</button>
+      <button type="reset">Limpar</button><br />
+    </form>
+    <footer>
+      <p>
+        Projeto imersão dev_ Alura <br />
+        &copy; Jan/2023 - Iara Varjão Barbosa
+      </p>
+    </footer>
+    <script defer src="script.js"></script>
+  </body>
+</html>
