@@ -1,5 +1,5 @@
 # projects in progress
 
-Imersão Alura dev - conversor de moedas
+Imersão Alura dev - conversor de moedas.
 
-Minicamp XP Programação básica -
+Minicamp XPE Programação básica - calculadora que realiza várias operações de uma só vez.
