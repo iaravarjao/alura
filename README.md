@@ -1,5 +1,6 @@
 # projects in progress
 
-Imersão Alura dev - conversor de moedas.
+1. Imersão Alura dev - conversor de moedas.
 
-Minicamp XPE Programação básica - calculadora que realiza várias operações de uma só vez. https://supercalculadoraiara.netlify.app/
+2. Minicamp XPE Programação básica - calculadora que realiza várias operações de uma só vez. Edit março/23: Alterei a primeira versao onde os resultados eram apresentados em alert, para resultados impressos direto na tela.
+https://supercalculadoraiara.netlify.app/
