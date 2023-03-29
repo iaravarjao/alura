@@ -8,21 +8,84 @@
     <title>Super Calculadora</title>
   </head>
   <body>
-    <h1>Super Calculadora</h1>
-    <h2>Primeiro número (A):</h2>
-    <form><input type="number" id="A" placeholder="nº" /><br /></form>
-    <h2>Segundo número (B):</h2>
-    <form><input type="number" id="B" placeholder="nº" /><br /></form>
-    <p>
-      <button type="button" onclick="Calcular(A, B)">Calcular</button>
-      <button type="reset">Limpar</button><br />
-    </p>
+    <header>
+      <h1>Super Calculadora</h1>
+      <div>
+        <h2>Primeiro número (A):</h2>
+        <form><input type="number" id="A" placeholder="nº" /><br /></form>
+      </div>
+      <div>
+        <h2>Segundo número (B):</h2>
+        <form><input type="number" id="B" placeholder="nº" /><br /></form>
+      </div>
+      <p>
+        <button type="button" onclick="Calcular()">Calcular</button>
+      </p>
+    </header>
+    <main>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Soma</p>
+        <p class="resultado" id="soma"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Subtração A - B</p>
+        <p class="resultado" id="subtracao1"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Subtração B - A</p>
+        <p class="resultado" id="subtracao2"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Divisão A / B</p>
+        <p class="resultado" id="divisao1"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Divisão B / A</p>
+        <p class="resultado" id="divisao2"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Potênciação A ** B</p>
+        <p class="resultado" id="potencia1"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Potenciação B ** A</p>
+        <p class="resultado" id="potencia2"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Raiz Quadrada de A</p>
+        <p class="resultado" id="raiza"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Raiz Quadrada de B</p>
+        <p class="resultado" id="raizb"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Percentual de A sobre B</p>
+        <p class="resultado" id="porcent1"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Percentual de B sobre A</p>
+        <p class="resultado" id="porcent2"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Média</p>
+        <p class="resultado" id="media"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Fatorial de A</p>
+        <p class="resultado" id="fatA"></p>
+      </div>
+      <div class="calculoCnt">
+        <p class="rotuloCalculo">Fatorial de B</p>
+        <p class="resultado" id="fatB"></p>
+      </div>
+    </main>
+    <script defer src="script.js"></script>
     <footer>
       <p>
         Projeto Minicamp XPE - Programação Básica <br />
-        &copy; Fev/2023 - Iara Varjão Barbosa
+        &copy; Mar/2023 - Iara Varjão Barbosa
       </p>
     </footer>
-    <script defer src="script.js"></script>
   </body>
 </html>
